@@ -1,0 +1,110 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, readable font for the website */
+    margin: 0; /* Removes default browser margin */
+    padding: 0; /* Removes default browser padding */
+    line-height: 1.6; /* Sets a comfortable line height for text */
+}
+
+/* Container class for centralizing content */
+.container {
+    width: 80%; /* Sets the container width to 80% of the viewport */
+    margin: auto; /* Centers the container horizontally */
+    overflow: hidden; /* Clears floating elements inside the container */
+}
+
+/* Header Styles */
+header {
+    background: #0077cc; /* Sets the header background color */
+    color: #fff; /* Sets the text color to white */
+    padding-top: 30px; /* Adds padding to the top */
+    min-height: 70px; /* Ensures a minimum height for the header */
+    border-bottom: #005fa3 3px solid; /* Adds a bottom border with a darker shade */
+}
+
+header h1 {
+    text-align: center; /* Centers the heading text */
+    margin: 0; /* Removes default margin */
+    font-size: 2.5em; /* Sets the font size for the heading */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background: #005fa3; /* Sets the navbar background color */
+    color: #fff; /* Sets the text color to white */
+    padding: 10px 0; /* Adds padding to the navbar */
+}
+
+nav ul {
+    padding: 0; /* Removes default padding from the list */
+    list-style: none; /* Removes default list bullet points */
+    text-align: center; /* Centers the list items */
+}
+
+nav ul li {
+    display: inline; /* Displays list items in a horizontal line */
+    margin: 0 20px; /* Adds horizontal spacing between items */
+}
+
+nav ul li a {
+    color: #fff; /* Sets the link text color to white */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em; /* Increases the font size */
+}
+
+/* Section Styles */
+.section {
+    padding: 20px 0; /* Adds vertical padding to sections */
+}
+
+h2 {
+    color: #333; /* Sets a dark gray color for headings */
+    text-align: center; /* Centers the headings */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+
+/* Lists Styles */
+ul, ol {
+    margin: 20px auto; /* Centers lists horizontally with auto margins */
+    padding-left: 40px; /* Adds padding to the left for indentation */
+    max-width: 600px; /* Limits the list width */
+}
+
+/* Form Styles */
+form {
+    max-width: 600px; /* Limits the form width */
+    margin: auto; /* Centers the form horizontally */
+}
+
+form label {
+    display: block; /* Ensures labels are on their own line */
+    margin-bottom: 5px; /* Adds spacing below labels */
+}
+
+form input, form textarea, form button {
+    width: 100%; /* Makes input fields and buttons take full width */
+    margin-bottom: 10px; /* Adds spacing below each element */
+    padding: 10px; /* Adds padding inside the elements */
+    border: 1px solid #ccc; /* Sets a light gray border */
+    border-radius: 5px; /* Rounds the corners of elements */
+}
+
+form button {
+    background: #0077cc; /* Sets the button background color */
+    color: #fff; /* Sets the button text color to white */
+    border: none; /* Removes the border */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+form button:hover {
+    background: #005fa3; /* Darkens the button background on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Centers the footer text */
+    padding: 10px 0; /* Adds vertical padding to the footer */
+    background: #005fa3; /* Sets the footer background color */
+    color: #fff; /* Sets the footer text color to white */
+    margin-top: 20px; /* Adds spacing above the footer */
+}
